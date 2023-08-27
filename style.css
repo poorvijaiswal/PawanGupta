@@ -1164,20 +1164,22 @@ table{width: 400px;}
 @media(max-width: 450px)
 {
 
-  .wrapper .static-txt{
+  .wrapper .static-txt
+  {
   color: black;
   font-size: 3vh;
   /*font-weight: 600;*/
   /*letter-spacing: 1px;*/
-}
+  }
 
-.dynamic-txts li{
-  font-size: 3vh;
-}
+  .dynamic-txts li{
+    font-size: 3vh;
+  }
+  .box{width: 95%;}
 
-table{width: 350px; font-size:14px ;}
-.part2 .head{font-size: 26px;}
-.part2 p{font-size: 16px;}
-#about .container .part2{padding: 0px;}
+  table{width: 350px; font-size:14px ;}
+  .part2 .head{font-size: 26px;}
+  .part2 p{font-size: 16px;}
+  #about .container .part2{padding: 0px;}
 }
 

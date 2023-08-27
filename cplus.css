@@ -130,7 +130,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 	/*background: lightgoldenrodyellow; */
 	padding: 15px;
 }
-.popular{width: 100%; padding: 0px; background: beige; position: relative; margin-bottom: 10px;}
+.popular{width: 100%; padding: 0px; background: beige; position: relative;}
 .cpart1{height: 50%; width: 100%; background: lightblue; padding: 10px; height: 100px;}
 .cpart2{height: 50%; width: 100%; background: white; padding: 10px;height: 60px;}
 .base
