@@ -1166,13 +1166,13 @@ table{width: 400px;}
 
   .wrapper .static-txt{
   color: black;
-  font-size: 4vh;
+  font-size: 3vh;
   /*font-weight: 600;*/
   /*letter-spacing: 1px;*/
 }
 
 .dynamic-txts li{
-  font-size: 4vh;
+  font-size: 3vh;
 }
 
 table{width: 350px; font-size:14px ;}
