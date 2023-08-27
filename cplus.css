@@ -161,6 +161,15 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 	padding: 15px; color: black;
 }
 .pop-ex a{text-decoration: none; font-size: 15px; font-weight: bold;}
+/*-----------------------------------------------------*/
+.left_part, .right_part
+{
+	width: 50%;
+	padding: 10px;
+	text-align: left;
+	/*background-color:beige;*/
+	float: left;
+}
 /*-------------------------------------------------------*/
 
 #myProgram{margin-top: 20px; list-style: none;}
@@ -180,7 +189,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 }
 .hide {display: none;}
  .prog-container ul li a{text-decoration: none; padding: 10px; display: block; display: flex; align-items: center; color: steelblue; font-weight: bold;}
-.prog-container li:hover{background: whitesmoke; transition: 0.2s;}
+.prog-container ul li:hover{background: whitesmoke; transition: 0.2s;}
 /*---------------------------------------------------------------------*/
 
 @media(max-width:  1024px)
@@ -202,7 +211,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 /*		width: 0!important;*/
 display: none!important;
 	}
-	.small-txt li:nth-child(even)	
+	.small-txt ul li:nth-child(even)	
 		{
 			background-color: aliceblue!important;
 		}
