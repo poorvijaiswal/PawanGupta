@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; padding-top: 10px;}
+		h2{color: blue; text-align: center;}
+		.container
+		{max-width: 1200px; padding: 20px; margin: auto;}
+		.base{width: 100%; background: whitesmoke; padding: 2px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+		.box{width: calc(50% - 10px); padding: 10px; background: transparent; border-radius: 2px; box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);}
+		.input{max-width: 550px; width: 100%;}
+		.text{font-size: 16px; font-weight: 500; letter-spacing: 1px; line-height: 1.4;}
+		.img{width: 100%;
+			height: 100%;}
+			p{font-size: 20px;font-weight: bold; padding: 10px;}
+		.Output{width: 100%; padding: 20px; background: #141414; color: white; font-size: 15px;box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);}
+		ul {padding-left: 15px;}
+		@media(max-width: 768px)
+		{
+			.Output{width: 100%;}
+			.base{display: flex; flex-direction: column;}
+			.box{
+				width: 100%;
+			}
+		}
+		@media(max-width: 600px)
+		{
+			.Output{width: 100%px;}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h2>C++ Program to Print "Hello World"</h2><br><br>
+	<div class="base">
+		<div class="box">
+			<p>Source code</p>
+			<div class="input"><img src="../simple_prog/1hello_inp.PNG" class="img"></div>
+			<p>Output</p>
+			<div class="Output">Hello World</div>
+		</div>
+		<div class="box">
+			<ul type="square">
+				<li><p class="text">A "Hello, World!" is a simple program that outputs "Hello World" on the screen.</p></li>
+				<li><p class="text">The <b>#include</b> directive tells the compiler to include a file and <b> #include < iostream ></b>  tells the compiler to include the standard iostream file which contains declarations of all the standard input/output library functions.</p></li>
+				<li><p class="text" ><b>using namespace std</b> is used to import the entity of the std namespace.</p></li>
+				<li><p class="text"><b>int main():</b> This line is used to declare a function named “main” which returns data of integer type. A function is a group of statements that are designed to perform a specific task.</p></li>
+			</ul>
+		</div>
+	</div>
+	
+
+</body>
+</html>
