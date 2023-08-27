@@ -1,0 +1,227 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	/*list-style: none;*/
+}
+
+.small-part::-webkit-scrollbar {
+  display: none;
+}
+.large-part::-webkit-scrollbar {
+  display: none;
+}
+
+ul li{list-style: none;}
+.small-txt p li{ letter-spacing: 1px; }
+.theory{padding: 5px; margin-left: 5px; font-size: 15px; line-height: 1.5;}
+.disappear
+{
+	display: none;
+}
+.content p, .content li{line-height: 1.3;}
+/*.active{
+	background-color: steelblue;
+  color: white;
+}*/
+section
+{
+	width: 100%;
+	padding: 5px;
+	/*background: coral;*/
+}
+.container
+{
+	max-width: 1200px;
+	width: 100%;
+	height: 100vh;
+	/*background: greenyellow;*/
+	padding: 5px;
+	margin: auto;
+	display: flex;
+}
+.small-part
+{
+	width: 25%;
+	/*background: red;*/
+	/*padding: 10px;*/
+	/*height: 100vh;*/
+	position: relative;
+	overflow-y:auto ;
+}
+/*.fix{position: sticky; top: 0;}*/
+.large-part
+{
+	width: 75%;
+	/*background: white;*/
+	/*height: 100vh;*/
+	padding: 0px 0px 10px 20px;
+	overflow-y: auto;
+}
+#mySearch
+{
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  /*border: 1px solid red;*/
+}
+#myMenu
+{
+	list-style: none;
+}
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: steelblue;
+  font-weight: 600;
+  display: block;
+  transition: 0.2s;
+}
+#myMenu li:nth-child(even)		/*can also be given to particular row by specifying row number*/
+		{
+			background-color: aliceblue;
+		}
+#myMenu li a:hover {
+  background-color: steelblue;
+  color: white;
+}
+.close
+{
+	width: 50px; height: 50px;
+	/*background: pink;*/
+	text-align: center; line-height: 50px; 
+    font-size: 30px; 
+	cursor: pointer;display: none; float: right;
+}
+.fa-bars{padding: 5px;}
+button{border: none; outline: none; background: transparent; font-size: 20px; display: none;}
+.fa-bars{ font-size: 22px }
+/*--------------------------------------------------------------*/
+.c-head
+{
+	width: 100%;
+	padding: 10px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#all-search
+{
+  width: 45%;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid steelblue;
+}
+.c-text
+{
+	width: 100%;
+	background: lightblue;
+	padding: 10px; display: flex;
+}
+.c-image{width: 100px; height: 100px;background: red;}
+.img{width: 100%; height: 100% ;}
+.content
+{
+	width: calc(100% - 100px); 
+	display:none;
+	/*background: lightgoldenrodyellow; */
+	padding: 15px;
+}
+.popular{width: 100%; padding: 0px; background: beige; position: relative;}
+.cpart1{height: 50%; width: 100%; background: lightblue; padding: 10px; height: 100px;}
+.cpart2{height: 50%; width: 100%; background: white; padding: 10px;height: 60px;}
+.base
+{
+	position: absolute;
+	width: 100%; 
+	height: 100%; 
+	/*background: palevioletred;*/
+	padding: 5px; 
+	top: 0; left: 0;
+}
+.division{display: flex; justify-content: space-between; padding: 20px 10px 20px 10px; flex-wrap: wrap;}
+.pop-ex
+{
+	background: aliceblue; 
+	width: calc(25% - 15px); 
+	/*padding: 5px; */
+	border-top: 2px solid blue; 
+	border-radius: 5px;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.div-head{font-size: 12px; color: maroon;}
+.pop-ex a div
+{
+	width: 100%; 
+	height: 100%; 
+	/*background: lightpink; */
+	padding: 15px; color: black;
+}
+.pop-ex a{text-decoration: none; font-size: 15px; font-weight: bold;}
+/*-------------------------------------------------------*/
+
+#myProgram{margin-top: 20px; list-style: none;}
+#myProgram li
+{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#myProgram li:hover{background: whitesmoke; transition: 0.2s;}
+#myProgram li a{text-decoration: none; padding: 10px; display: block; display: flex; align-items: center; color: steelblue; font-weight: bold;}
+.number
+{
+	min-width: 30px; min-height: 30px; 
+	border-radius: 50%; 
+	background: lightblue;
+	text-align: center; margin-right: 10px;
+	line-height: 30px; color: blue; font-weight: 700;
+}
+.hide {display: none;}
+ .prog-container ul li a{text-decoration: none; padding: 10px; display: block; display: flex; align-items: center; color: steelblue; font-weight: bold;}
+.prog-container li:hover{background: whitesmoke; transition: 0.2s;}
+/*---------------------------------------------------------------------*/
+
+@media(max-width:  1024px)
+{
+	.pop-ex{width: calc(50% - 15px); margin-top: 10px;}
+	.cpart2{height: 180px;}
+	.base h2{text-align: center;}
+}
+@media(max-width:  768px)
+{	
+
+	/*.small-part{width: 0%; z-index: -9; transition: 0.5s;}*/
+	.small-part{width: 0; display: none;}
+	.large-part{width: 100%; padding: 0;}
+	.close{display: block;}
+	button{display: block;}
+	.widthZero
+	{
+/*		width: 0!important;*/
+display: none!important;
+	}
+	.small-txt li:nth-child(even)	
+		{
+			background-color: aliceblue!important;
+		}
+ }
+ @media(max-width:  600px)
+ {
+ /*.large-part .popular{ margin-bottom: 10px; }*/
+ .theory img{width: 400px;}
+ 	#myProgram li
+ 	{
+ 		font-weight: 300;
+ 		font-size: 14px;
+ 	}
+ #myProgram li:nth-child(even)		/*can also be given to particular row by specifying row number*/
+		{
+			background-color: aliceblue!important;
+		}
+	.small-txt{font-size: 14px;}
+	.c-text{letter-spacing: 1px; font-size: 14px;}
+	}
+
+
