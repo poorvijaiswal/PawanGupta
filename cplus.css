@@ -27,6 +27,7 @@
 ul li{list-style: none;}
 .small-txt p li{ letter-spacing: 1px; }
 .theory{padding: 5px; margin-left: 5px; font-size: 15px; line-height: 1.5;}
+.remove{display: none; height: 0!important;}
 .disappear
 {
 	display: none;

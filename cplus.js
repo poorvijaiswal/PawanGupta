@@ -6,12 +6,14 @@ function openNav() {
   document.getElementById("side").style.background = 'white';
   document.getElementById("side").style.display = 'block' ;
   document.getElementById("side").classList.remove("widthZero");
-  document.getElementById("remove").classList.addClass("disappear");
+  document.getElementById("remove").style.display='none';
+  // document.getElementById("remove").classList.addClass("disappear");
 }
 
 function closeNav() {
   document.getElementById("side").style.width = "0";
   document.getElementById("side").style.display = 'none' ;
+  document.getElementById("remove").style.display='block';
 }
 
 function myFunction() {
@@ -128,6 +130,7 @@ $(document).on('click', '.programs', function() {
 	});
 	// -------------------------------------------------------------
 	function openContent(evt, topic) {
+		document.getElementById("remove").style.display='block';
   var i, content, tablinks;
   content = document.getElementsByClassName("content");
   for (i = 0; i < content.length; i++) {
