@@ -8,10 +8,20 @@
 }
 
 .small-part::-webkit-scrollbar {
-  display: none;
+  width: 10px; 
+}
+.small-part::-webkit-scrollbar-thumb:hover
+{
+	background-color: lightgray;
+	border-radius: 15px;
+	box-shadow: inset 0 0 15px #ddd;
+}
+.small-part::-webkit-scrollbar-track
+{
+	border-radius: 5px;
 }
 .large-part::-webkit-scrollbar {
-  display: none;
+  /*display: none;*/
 }
 
 ul li{list-style: none;}
@@ -36,7 +46,6 @@ section
 {
 	max-width: 1200px;
 	width: 100%;
-	height: 100vh;
 	/*background: greenyellow;*/
 	padding: 5px;
 	margin: auto;
@@ -47,16 +56,15 @@ section
 	width: 25%;
 	/*background: red;*/
 	/*padding: 10px;*/
-	/*height: 100vh;*/
+	height: 100vh;
 	position: relative;
 	overflow-y:auto ;
 }
-/*.fix{position: sticky; top: 0;}*/
+.fix{position: sticky; top: 0;}
 .large-part
 {
 	width: 75%;
 	/*background: white;*/
-	/*height: 100vh;*/
 	padding: 0px 0px 10px 20px;
 	overflow-y: auto;
 }
