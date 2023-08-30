@@ -10,7 +10,7 @@
 .small-part::-webkit-scrollbar {
   width: 10px; 
 }
-.small-part::-webkit-scrollbar-thumb:
+.small-part::-webkit-scrollbar-thumb
 {
 	background-color: lightgray;
 	border-radius: 15px;
