@@ -142,16 +142,33 @@ $(document).on('click', '.programs', function() {
 	$(document).ready(function () {
 
 
-	$("#all-search").on("keyup", function () {
-	if (this.value.length > 0) {   
-	  $(".Searching li a").hide().filter(function () {
-	    return $(this).text().toLowerCase().indexOf($("#all-search").val().toLowerCase()) != -1;
-	    $("li").addClass("border");
-	  }).show(); 
-	}  
-	else { 
-	  $(".Searching li a").show();
-	}
-	}); 
+	$("#all-search").on("keyup", function () 
+	{
+		if (this.value.length > 0) 
+		{   
+		  $(".Searching li a").hide().filter(function () {
+		    return $(this).text().toLowerCase().indexOf($("#all-search").val().toLowerCase()) != -1;
+		    $("li").addClass("border");
+		  }).show(); 
+		}  
+		else 
+		{ 
+		  $(".Searching li a").show();
+		}
+		}); 
 
 	});
+
+$('input[type=search]').on('search', function () {
+    // this function will be executed on click of X (clear button)
+    $(".Searching li a").show();
+    $("#myMenu li").css('display', 'block');
+});
+
+	$('.programs').on('click', function () {
+    // this function will be executed on click of X (clear button)
+    $(".Searching li a").show();
+    $('#all-search').val('');
+    $("#myMenu li").css('display', 'block');
+    $('#mySearch').val('');
+});
