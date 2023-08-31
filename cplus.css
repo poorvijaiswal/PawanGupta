@@ -186,6 +186,9 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+.border{
+	border-bottom: 0px solid rgba(0, 0, 0, 0)!important;
+}
 #myProgram li:hover{background: whitesmoke; transition: 0.2s;}
 #myProgram li a{text-decoration: none; padding: 10px; display: block; display: flex; align-items: center; color: steelblue; font-weight: bold;}
 .number
