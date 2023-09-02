@@ -116,9 +116,15 @@ $(document).on('click', '.programs', function() {
 	  var show = $(this).data('show');
 	  $('#side').addClass("widthZero");
 	  $(show).removeClass("hide").siblings().addClass("hide");
+	  $('#mainCon').remove();
 
 	});
-	// -------------------------------------------------------------
+// --------------------------no result--------------------
+$(document).ready(function()
+	{
+		$('.error').hide();	
+	});
+	// -----------------------changing content of top introductory paragraph--------------------------------------
 	function openContent(evt, topic) {
 		document.getElementById("remove").style.display='block';
   var i, content, tablinks;
@@ -142,33 +148,65 @@ $(document).on('click', '.programs', function() {
 	$(document).ready(function () {
 
 
-	$("#all-search").on("keyup", function () 
-	{
-		if (this.value.length > 0) 
-		{   
-		  $(".Searching li a").hide().filter(function () {
-		    return $(this).text().toLowerCase().indexOf($("#all-search").val().toLowerCase()) != -1;
-		    $("li").addClass("border");
-		  }).show(); 
-		}  
-		else 
-		{ 
-		  $(".Searching li a").show();
-		}
-		}); 
+	$("#all-search").on("keyup", function () {
+		
+	if (this.value.length > 0) {   
+		$(".theory").hide();
+		$(".c-text").hide();
+		$(".popular").hide();
+		var resultCount = 0;
+		
+		$("li").addClass("border");
+	  $(".Searching li a").hide().filter(function () {
+	    if ($(this).text().toLowerCase().indexOf($("#all-search").val().toLowerCase()) != -1)
+	    {
+	    	$(this).show();
+	    	$(".error").hide();
+	    	resultCount++;
+	    }
+
+	    if (resultCount == 0) {
+        $(".error").show();
+        $(".error").css('align-items', 'center')
+     }
+	  });
+
+	  // $(".Searching li a").hide().filter(function () {
+	  //   return $(this).text().toLowerCase().indexOf($("#all-search").val().toLowerCase()) != -1;
+	  //   $("li").addClass("border");
+	  // }).show();
+
+	}  
+	else { 
+	  $(".Searching li a").show();
+	  $(".theory").show();
+	  $(".c-text").show();
+	  $(".popular").show();
+	}
+	}); 
 
 	});
 
-$('input[type=search]').on('search', function () {
+
+		$('input[type=search]').on('search', function () {
     // this function will be executed on click of X (clear button)
     $(".Searching li a").show();
+    $(".theory").show();
+    $(".c-text").show();
+    $(".popular").show();
+    $('.error').hide();
     $("#myMenu li").css('display', 'block');
 });
 
 	$('.programs').on('click', function () {
+		$(".theory").show();
+		$(".c-text").show();
+		$(".popular").show();
+		$('.error').hide();
     // this function will be executed on click of X (clear button)
     $(".Searching li a").show();
     $('#all-search').val('');
     $("#myMenu li").css('display', 'block');
     $('#mySearch').val('');
 });
+

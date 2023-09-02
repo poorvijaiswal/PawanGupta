@@ -384,9 +384,11 @@
       <h1 class="proj">Get in Touch</h1>
       <div class="base1">
         <div class="conbox">
-            <div class="circle">
-              <i class="fa fa-map-marker"></i>
-            </div>
+            <a href="map.html" target="top">
+              <div class="circle">
+                <i class="fa fa-map-marker"></i>
+              </div>
+            </a>
             <div class="hold">
               <h3 class="contact">Address</h3><br>
               <p class="para">Indore, India</p>
@@ -394,9 +396,11 @@
         </div>
 
         <div class="conbox">
-          <div class="circle down">
-            <i class="fa fa-phone"></i>
-          </div>
+          <a href="tel:9406781742">
+            <div class="circle down">
+              <i class="fa fa-phone"></i>
+            </div>
+          </a>
           <div class="hold">
             <h3 class="contact">Contact Number</h3><br>
             <p class="para">+91 9406781742</p>
@@ -404,9 +408,11 @@
           </div>
         </div>
         <div class="conbox">
-          <div class="circle">
-            <i class="fa fa-envelope"></i>
-          </div>
+          <a href="mailto:pawangupta@acropolis.in">
+            <div class="circle">
+              <i class="fa fa-envelope"></i>
+            </div>
+          </a>
           <div class="hold">
             <h3 class="contact">Email Address</h3><br>
             <p class="para">pawangupta@acropolis.in</p>
@@ -425,14 +431,14 @@
               </div>
               <div class="right-container">
               <div class="right-inner-container">
-                <form action="#" method="post">
+                <form action="mailto:pawangupta@acropolis.in" method="post" enctype="text/plain">
                   <h2 class="lg-view">Contact</h2>
                   <h2 class="sm-view">Let's Chat</h2>
                        <p>* Required</p>
-                  <input type="text" placeholder="Name *"  required>
-                  <input type="email" placeholder="Email *" required>
-                  <input type="text" placeholder="Phone" required minlength="10" maxlength="10">
-                  <textarea rows="4" placeholder="Message"></textarea>
+                  <input type="text" placeholder="Name *"  required name="Name" value="">
+                  <input type="email" placeholder="Email *" required name="Email" value="">
+                  <input type="text" placeholder="Phone" required minlength="10" maxlength="10" name="Phone" value="">
+                  <textarea rows="4" placeholder="Message" name="Message" value=""></textarea>
                   <button>Submit</button>
                 </form>
                 </div>
