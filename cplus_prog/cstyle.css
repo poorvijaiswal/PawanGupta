@@ -19,6 +19,7 @@
 		.text{font-size: 16px; font-weight: 500; letter-spacing: 1px; line-height: 1.4;}
 		.img{width: 100%; height: 100%;padding: 0;}
 		.right{width: calc(50% - 10px);}
+		.right p{line-height: 1.3; letter-spacing: 1px;}
 		.right .head {font-size: 20px;font-weight: bold; padding: 10px; }
 			
 		.Output{width: 100%; padding: 20px; background: #141414; color: white; font-size: 15px;box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2); margin-top: 20px;}
