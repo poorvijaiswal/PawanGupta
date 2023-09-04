@@ -7,7 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="cstyle.css">
 	<style type="text/css">
 		.input{font-size: 13px; letter-spacing: 1px; line-height: 1.2;}
-
+		@media(max-width: 450px)
+		{
+			.font{font-size: 10px!important; height: 450px;}
+		}
 	</style>
 </head>
 <body>
@@ -18,7 +21,7 @@
 				<div class="head">Source Code</div>
 				<div class="input">
 					
-					<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;height: 600px; border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd2828; font-weight: bold">#include &lt;iostream&gt;</span>
+					<!-- HTML generated using hilite.me --><div class="font" style="background: #202020; overflow:auto;width:auto;height: 600px; border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd2828; font-weight: bold">#include &lt;iostream&gt;</span>
 <span style="color: #6ab825; font-weight: bold">using</span> <span style="color: #6ab825; font-weight: bold">namespace</span> <span style="color: #d0d0d0">std;</span>
 <span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">stack[</span><span style="color: #3677a9">100</span><span style="color: #d0d0d0">],</span> <span style="color: #d0d0d0">n=</span><span style="color: #3677a9">100</span><span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">top=-</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">;</span>
 <span style="color: #6ab825; font-weight: bold">void</span> <span style="color: #447fcf">push</span><span style="color: #d0d0d0">(</span><span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">val)</span> <span style="color: #d0d0d0">{</span>
