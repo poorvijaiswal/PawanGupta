@@ -29,7 +29,8 @@ function myFunction() {
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) 
+    {
       li[i].style.display = "";
     } else {
       li[i].style.display = "none";
@@ -111,14 +112,15 @@ $(document).ready(function(){
 	}); 
 	
 });
-// ---------------------------------------------------------------
+// ------------------------program list change---------------------------------------
 $(document).on('click', '.programs', function() {
 	  var show = $(this).data('show');
 	  $('#side').addClass("widthZero");
 	  $(show).removeClass("hide").siblings().addClass("hide");
 	  $('#mainCon').remove();
-
 	});
+
+
 // --------------------------no result--------------------
 $(document).ready(function()
 	{

@@ -18,6 +18,7 @@
 				<div class="close" onclick="closeNav()">&times</div>
 				<input type="search" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
 				<ul id="myMenu">
+					<!-- <div class="error" id="err"><h2 align="center">No Result Found</h2></div> -->
 				  <li id="all" class="programs tablinks" data-show=".all" onclick="openContent(event,'allCon')"><a href="#">All Examples</a></li>
 				  <li id="simple-prog" class="programs tablinks" data-show=".simple" onclick="openContent(event,'sim_progCon')"><a href="#">Simple Programs</a></li>
 				  <li id="if-else" class="programs tablinks" data-show=".ifelse" onclick="openContent(event,'if_elCon')"><a href="#">if-else</a></li>
@@ -38,7 +39,7 @@
 			</div>
 		</div>
 		<div class="large-part" id="remove">
-			<div class="c-head">
+			<div class="c-head navbar">
 
 					<button onclick="openNav()">
           			<i class="fa fa-bars"></i>
@@ -46,7 +47,7 @@
 				<h1> C++ Examples</h1>
 				<input type="search" id="all-search" onkeyup="addClass()" placeholder="Search.." title="Type in a category">
 			</div><br>
-			<div class="c-text">
+			<div class="c-text" id="navbar">
 				<div class="c-image"><img src="c1.jpg" class="img"></div>
 
 				<div id="mainCon"><p>C++ is an Object Oriented Programming Language. One of the best ways of learning C++ is by practicing various examples of it.<br><br> This page contains examples on the basic concepts of C++.</p></div>
@@ -78,10 +79,7 @@
 
 				<div class="content" id="loopCon">
 					<p>In Programming, sometimes there is a need to perform some operation more than once or (say) n number of times. Loops come into use when we need to repeatedly execute a block of statements.</p><br>
-					<p>The looping statements available in C++ are :</p>
-					<li>For loop.</li>
-					<li>While loop.</li>
-					<li>Do .. While loop.</li>
+					
 				</div>
 				<div class="content" id="patternCon">
 					<p> In any programming language, star patterns are widely popular because it helps improve logical thinking and flow control knowledge. <br></p>
@@ -122,7 +120,6 @@
 				<div class="content" id="linkCon">
 					<p><b>Linked List</b> is a linear data structure, in which elements are not stored at a contiguous location, rather they are linked using pointers..</p><br>
 				</div>
-
 
 			</div>
 			<div class="popular">
@@ -435,6 +432,29 @@
 						<li>If the condition evaluates to true, the code inside the body of if is executed.</li>
 						<li>If the condition evaluates to false, the code inside the body of if is skipped.</li></p><br>
 
+						<div class="syntax">
+							<p>Syntax</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">if</span> (condition) {
+  <span style="color: #008800; font-style: italic">// block of code to be executed if the condition is true</span>
+}
+</pre></div>
+							</div>
+						</div>
+
+						<div class="syntax">
+							<p>Example</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">int</span> x = <span style="color: #0000FF">33</span>;
+<span style="color: #000080; font-weight: bold">int</span> y = <span style="color: #0000FF">18</span>;
+<span style="color: #000080; font-weight: bold">if</span> (x &gt; y) {
+  cout &lt;&lt; <span style="color: #0000FF">&quot;x is greater than y&quot;</span>;
+}
+</pre></div>
+
+							</div>
+						</div>
+
 						<h2>2. C++ if...else</h2>
 						If the condition evaluates true,
 						<li>the code inside the body of if is executed</li>
@@ -442,9 +462,49 @@
 						If the condition evaluates false,
 						<li>the code inside the body of else is executed</li>
 						<li>the code inside the body of if is skipped from execution</li><br>
+						<div class="syntax">
+							<p>Syntax</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">if</span> (condition) {
+  <span style="color: #008800; font-style: italic">// block of code to be executed if the condition is true</span>
+} <span style="color: #000080; font-weight: bold">else</span> {
+  <span style="color: #008800; font-style: italic">// block of code to be executed if the condition is false</span>
+}
+</pre></div>
 
-						<h2>3. C++ if...else...else if statement</h2>
+
+							</div>
+						</div>
+
+						<h2>3. C++ if...else if...else statement</h2>
 						<p>If we need to make a choice between more than two alternatives, we use the if...else if...else statement.</p>
+						<div class="syntax">
+							<p>Syntax</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">if</span> (condition1) {
+  <span style="color: #008800; font-style: italic">//code to be executed if condition1 is true</span>
+} 
+<span style="color: #000080; font-weight: bold">else</span> <span style="color: #000080; font-weight: bold">if</span> (condition2) {
+  <span style="color: #008800; font-style: italic">//code to be executed if the condition1 is false and condition2 is true</span>
+} 
+<span style="color: #000080; font-weight: bold">else</span> {
+  <span style="color: #008800; font-style: italic">//code to be executed if the condition1 is false and condition2 is false</span>
+}
+</pre></div>
+							</div>
+						</div>
+
+						<h2>4. Short Hand If...Else (Ternary Operator)</h2>
+						<p>There is also a short-hand if else, which is known as the ternary operator because it consists of three operands. It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements:</p><br>
+						<div class="syntax">
+							<p>Syntax</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">variable = (condition) ? expressionTrue : expressionFalse;
+</pre></div>
+
+							</div>
+						</div>
+
 					</div>
 					<ul class="Searching">
 						<li><a href="cplus_prog/12age.html"><div class="number">1</div><span>WAP to find the maximum age of two students.</span></a></li>
@@ -457,6 +517,30 @@
 				</div>
 
 				<div class="switch hide small-txt">
+					<div class="theory"><br>
+						<p>The switch statement is a multway statement. If there is a possibility to make a choice from given options, this structured selection is useful. The switch statement only requires one argument of any data type to be checked with the given number of case options.</p><br><p>Here switch, case and default are reserved keywords and every case statement terminates with colon(:)
+It is mainly used for menu driven programs.</p><br>
+							<div class="syntax">
+							<p>Syntax</p>
+							<div class="image">
+								<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">switch</span>(expression) {
+  <span style="color: #000080; font-weight: bold">case</span> x:
+    <span style="color: #008800; font-style: italic">// code block</span>
+    <span style="color: #000080; font-weight: bold">break</span>;
+  <span style="color: #000080; font-weight: bold">case</span> y:
+    <span style="color: #008800; font-style: italic">// code block</span>
+    <span style="color: #000080; font-weight: bold">break</span>;
+  default:
+    <span style="color: #008800; font-style: italic">// code block</span>
+}
+</pre></div>	
+							</div><br>
+						</div>
+						<div class="syntax">
+								<h2> Switch Case Flowchart </h2>
+							<div class="image"><img src="cplus_prog/code_img/switch.PNG" ></div>
+						</div>
+					</div>
 					<ul class="Searching">
 						<li><a href="cplus_prog/18calc.html"><div class="number">1</div><span>WAP to make simple calculation for all arithmetic operations (+, -, *, /)</span></a></li>
 						<li><a href="cplus_prog/19vowelSwitch.html"><div class="number">2</div><span>WAP to check whether the entered character is a vowel or consonant using switch-case.</span></a></li>
@@ -465,6 +549,55 @@
 				</div>
 
 				<div class="loop hide small-txt">
+					<div class="theory">
+						<p>The looping statements available in C++ are :</p>
+						<li>For loop.</li>
+						<li>While loop.</li>
+						<li>Do .. While loop.</li><br>
+						<h2>There are mainly two types of loops:  </h2>
+						<ol>
+							<li><b>Entry Controlled loops:</b> In this type of loop, the test condition is tested before entering the loop body. <b>For Loop</b> and <b>While Loop</b> is entry-controlled loops.</li><br>
+							<li><b>Exit Controlled Loops:</b> In this type of loop the test condition is tested or evaluated at the end of the loop body. Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. the <b>do-while loop</b> is exit controlled loop.</li>
+						</ol><br>
+						<h2>For Loop</h2>
+						<p>A For loop is a repetition control structure that allows us to write a loop that is executed a specific number of times.</p><br>
+						<div class="syntax">
+								<h2> Syntax</h2>
+							<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">for</span> (initialization expr; test expr; update expr)
+{    
+     <span style="color: #008800; font-style: italic">// body of the loop</span>
+     <span style="color: #008800; font-style: italic">// statements we want to execute</span>
+}
+</pre></div></div>
+						</div>
+						<h2>While Loop</h2>
+						<p>While studying for loop we have seen that the number of iterations is known beforehand, i.e. the number of times the loop body is needed to be executed is known to us. while loops are used in situations where we do not know the exact number of iterations of the loop beforehand.</p><br>
+						<div class="syntax">
+								<p>Syntax</p>
+							<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">initialization expression;
+<span style="color: #000080; font-weight: bold">while</span> (test_expression)
+{
+   <span style="color: #008800; font-style: italic">// statements</span>
+ 
+  update_expression;
+}
+</pre></div>
+</div>
+						</div>
+						<h2>Do-while loop</h2>
+					    <p>In a do-while loop, the loop body will execute at least once irrespective of the test condition.</p><br>
+					    <div class="syntax">
+								<h2> Syntax</h2>
+							<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">initialization expression;
+<span style="color: #000080; font-weight: bold">do</span>
+{
+   <span style="color: #008800; font-style: italic">// statements</span>
+   update_expression;
+} <span style="color: #000080; font-weight: bold">while</span> (test_expression);
+</pre></div>
+</div>
+						</div>
+					</div>
 					<ul class="Searching">
 						<li><a href="cplus_prog/21helloWorld.html"><div class="number">1</div><span>WAP to print Hello World five times.</span></a></li>
 						<li><a href="cplus_prog/22number.html"><div class="number">2</div><span>WAP to print natural numbers (1 to 10).</span></a></li>
@@ -652,7 +785,56 @@
 
 							<li>Inserting − Helps in inserting elements in an array.</li>
 
-							<li>Deleting − helps in deleting the element in an array</li>
+							<li>Deleting − helps in deleting the element in an array</li><br>
+							<h2>Declare Array</h2>
+							<p>To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:</p><br>
+							<div class="syntax">
+								<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">string name[<span style="color: #0000FF">4</span>];
+
+string fruits[<span style="color: #0000FF">3</span>] = {<span style="color: #0000FF">&quot;Mango&quot;</span>, <span style="color: #0000FF">&quot;Apple&quot;</span>, <span style="color: #0000FF">&quot;Orange&quot;</span>};
+</pre></div>
+</div>
+							</div>
+							<h2>Access the Elements of an Array</h2>
+							<p>You access an array element by referring to the index number inside square brackets [].</p><br>
+							<div class="syntax">
+								<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">string fruits[<span style="color: #0000FF">3</span>] = {<span style="color: #0000FF">&quot;Mango&quot;</span>, <span style="color: #0000FF">&quot;Apple&quot;</span>, <span style="color: #0000FF">&quot;Orange&quot;</span>};
+
+cout &lt;&lt; fruits[<span style="color: #0000FF">0</span>];  <span style="color: #008800; font-style: italic">//Mango</span>
+cout &lt;&lt; fruits[<span style="color: #0000FF">2</span>];  <span style="color: #008800; font-style: italic">//Orange</span>
+</pre></div>
+</div>
+							</div>
+							<h2>Change an Array Element</h2>
+							<p>To change the value of a specific element, refer to the index number:</p><br>
+							<div class="syntax">
+								<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">string fruits[<span style="color: #0000FF">3</span>] = {<span style="color: #0000FF">&quot;Mango&quot;</span>, <span style="color: #0000FF">&quot;Apple&quot;</span>, <span style="color: #0000FF">&quot;Orange&quot;</span>};
+
+cout &lt;&lt; fruits[<span style="color: #0000FF">0</span>];  <span style="color: #008800; font-style: italic">//Mango</span>
+fruits[<span style="color: #0000FF">2</span>]=<span style="color: #0000FF">&quot;Grape&quot;</span>;
+cout &lt;&lt; fruits[<span style="color: #0000FF">2</span>];  <span style="color: #008800; font-style: italic">//Grape</span>
+</pre></div>
+</div>
+							</div>
+
+							<h2>Access elements of an array through loop</h2>
+							<div class="syntax">
+								<div class="image"><!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">string day[<span style="color: #0000FF">3</span>] = {<span style="color: #0000FF">&quot;Sunday&quot;</span>, <span style="color: #0000FF">&quot;Monday&quot;</span>, <span style="color: #0000FF">&quot;Tuesday&quot;</span>};
+
+<span style="color: #000080; font-weight: bold">for</span> (<span style="color: #000080; font-weight: bold">int</span> i = <span style="color: #0000FF">0</span>; i &lt; <span style="color: #0000FF">3</span>; i++) {
+  cout &lt;&lt; i &lt;&lt; <span style="color: #0000FF">&quot; = &quot;</span> &lt;&lt; day[i] &lt;&lt; <span style="color: #0000FF">&quot;\n&quot;</span>;
+}
+
+<span style="color: #008800; font-style: italic">//output</span>
+<span style="color: #008800; font-style: italic">//0 = Sunday</span>
+<span style="color: #008800; font-style: italic">//1 = Monday</span>
+<span style="color: #008800; font-style: italic">//2 = Tuesday</span>
+</pre></div>
+</div>
+							</div>
+
+
+
 					</div>
 					<ul class="Searching">
 						<li><a href="cplus_prog/56arrayDemo.html"><div class="number">1</div><span>WAP to demonstrate the array.</span></a></li>
@@ -789,5 +971,6 @@
 	</div>
 </section>
 <script type="text/javascript" src="cplus.js"></script>
+
 </body>
 </html>

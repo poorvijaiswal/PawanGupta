@@ -112,7 +112,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 {
 	width: 100%;
 	/*height: 400px!important;*/
-	margin-top: 200px;
+	margin-top: 200px!important;
 	/*background-color: red;*/
 
 }
@@ -218,6 +218,19 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 .prog-container ul li:hover{background: whitesmoke; transition: 0.2s;}
 /*---------------------------------------------------------------------*/
 
+.syntax
+{
+	width: 90%; border-radius: 10px;
+	padding: 20px 15px 10px;
+	background-color: aliceblue;
+	margin-bottom: 25px;
+}
+.syntax p{font-size: 30px;}
+.image{width: 100%; padding: 20px;}
+.theory ol li{margin-left: 25px; line-height: 1.3;}
+.theory h2{margin-bottom: 10px;}
+/*----------------------------------------------------------------*/
+
 @media(max-width:  1024px)
 {
 	.pop-ex{width: calc(50% - 15px); margin-top: 10px;}
@@ -226,7 +239,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 }
 @media(max-width:  768px)
 {	
-
+	.syntax img{width: 100%; background: blue;}
 	/*.small-part{width: 0%; z-index: -9; transition: 0.5s;}*/
 	.small-part{width: 0; display: none;}
 	.large-part{width: 100%; padding: 0;}
@@ -244,13 +257,21 @@ display: none!important;
  }
  @media(max-width:  600px)
  {
+ 	.syntax
+{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.syntax p{font-size: 30px;}
+.image{width: 100%;}
  /*.large-part .popular{ margin-bottom: 10px; }*/
- .theory img{width: 400px;}
+ .syntax img{width: 100%; background: blue;}
  	#myProgram li
  	{
  		font-weight: 300;
  		font-size: 14px;
  	}
+ 	.image{font-size: 10px;}
  #myProgram li:nth-child(even)		/*can also be given to particular row by specifying row number*/
 		{
 			background-color: aliceblue!important;
