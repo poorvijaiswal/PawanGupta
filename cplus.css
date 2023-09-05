@@ -223,7 +223,7 @@ button{border: none; outline: none; background: transparent; font-size: 20px; di
 	width: 90%; border-radius: 10px;
 	padding: 20px 15px 10px;
 	background-color: aliceblue;
-	margin-bottom: 25px;
+	margin: 25px 0px;
 }
 .syntax p{font-size: 30px;}
 .image{width: 100%; padding: 20px;}
