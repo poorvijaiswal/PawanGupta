@@ -4,52 +4,73 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<style type="text/css">
-		*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; padding-top: 10px;}
-		h2{color: blue; text-align: center;}
-		.container
-		{max-width: 1200px; padding: 20px; margin: auto;}
-		.base{width: 100%; background: whitesmoke; padding: 2px; display: flex; justify-content: space-between; flex-wrap: wrap;}
-		.box{width: calc(50% - 10px); padding: 10px; background: transparent; border-radius: 2px; box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);}
-		.input{max-width: 550px; width: 100%;}
-		.text{font-size: 16px; font-weight: 500; letter-spacing: 1px; line-height: 1.4;}
-		.img{width: 100%;
-			height: 100%;}
-			p{font-size: 20px;font-weight: bold; padding: 10px;}
-		.Output{width: 100%; padding: 20px; background: #141414; color: white; font-size: 15px;box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);}
-		ul {padding-left: 15px;}
-		@media(max-width: 768px)
-		{
-			.Output{width: 100%;}
-			.base{display: flex; flex-direction: column;}
-			.box{
-				width: 100%;
-			}
-		}
-		@media(max-width: 600px)
-		{
-			.Output{width: 100%px;}
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="cstyle.css">
 </head>
 <body>
 <div class="container">
 	<h2>C++ Program to Print "Hello World"</h2><br><br>
 	<div class="base">
-		<div class="box">
-			<p>Source code</p>
-			<div class="input"><img src="../simple_prog/1hello_inp.png" class="img"></div>
-			<p>Output</p>
+		<div class="box">		
+			<p class="head">Source code</p>
+			<div class="input">
+				<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #999999; font-style: italic">//C++ Program to display &quot;Hello World&quot;</span>
+
+<span style="color: #cd2828; font-weight: bold">#include&lt;iostream&gt;</span>
+<span style="color: #6ab825; font-weight: bold">using</span> <span style="color: #6ab825; font-weight: bold">namespace</span> <span style="color: #d0d0d0">std;</span>
+				
+<span style="color: #999999; font-style: italic">//main() function: where execution of program begins.</span>
+<span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #447fcf">main</span><span style="color: #d0d0d0">()</span> 
+<span style="color: #d0d0d0">{</span>
+
+    <span style="color: #999999; font-style: italic"> //prints &quot;Hello World&quot;</span>
+    <span style="color: #d0d0d0"> cout</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #ed9d13">&quot;Hello World&quot;</span><span style="color: #d0d0d0">;</span>
+				
+    <span style="color: #6ab825; font-weight: bold"> return</span> <span style="color: #3677a9">0</span><span style="color: #d0d0d0">;</span>
+<span style="color: #d0d0d0">}</span>
+</pre></div>
+
+				</div>
+			<p class="head">Output</p>
 			<div class="Output">Hello World</div>
+
+			<div class="exp">
+				<h2>Explanation of C++ Hello World Program</h2>
+				<h3>1. Comment line: // C++ Program to display "Hello World"</h3>
+				<p class="text">As the name implies, comments are simply text written by programmers during the creation of code. 
+					It is completely ignored by the C++ compiler.
+					However, they should be relevant to the code and have some context so that when someone else looks at your code, 
+					they can understand what you did just by reading your comment.
+				</p><br>
+				<p class="text">Two different ways to give comment line:<br><br>
+					a) // This is used to represent the single line comment<br>
+					b) /* This is used to represent the multiple line comment<br>
+					suitable for more than one line of instruction					
+				*/</p>
+				<h3>2. Header file: <kbd class="outline">#include < iostream ></iostream></kbd></h3>
+				<p class="text">This statement instructs the compiler to include the iostream file in the output. 
+					This file includes input/output functions that can be used in our software.
+					The preprocessor directive <kbd class="outline">#include</kbd> is used to include files in our software.
+				</p>
+				<h3>3. <kbd class="outline">using namespace std</kbd></h3>
+				<p class="text">using namespace std means that we can use names for objects and variables from the standard library.</p>
+				<h3>4. <kbd class="outline">int main()</kbd></h3>
+				<p class="text">A valid C++ program must have the main() function. 
+					The curly braces indicate the start and the end of the function.<br>
+					The execution of code beings from this function.
+				</p>
+				<h3>5. <kbd class="outline">cout</kbd></h3>
+				<p class="text"> prints the content inside the quotation marks. It must be followed by << 
+					followed by the format string. In our example, "Hello World" is the format string.<br>
+					<kbd class="outline">;</kbd> is used to indicate the end of a statement.</p>
+				<h3>6. <kbd class="outline">return 0</kbd></h3>
+				<p class="text">The return 0; statement is the "Exit status" of the program. 
+					In simple terms, the program ends with this statement</p>
+				<h3></h3>
+				<p class="text"></p>
+
+			</div>
 		</div>
-		<div class="box">
-			<ul type="square">
-				<li><p class="text">A "Hello, World!" is a simple program that outputs "Hello World" on the screen.</p></li>
-				<li><p class="text">The <b>#include</b> directive tells the compiler to include a file and <b> #include < iostream ></b>  tells the compiler to include the standard iostream file which contains declarations of all the standard input/output library functions.</p></li>
-				<li><p class="text" ><b>using namespace std</b> is used to import the entity of the std namespace.</p></li>
-				<li><p class="text"><b>int main():</b> This line is used to declare a function named “main” which returns data of integer type. A function is a group of statements that are designed to perform a specific task.</p></li>
-			</ul>
-		</div>
+
 	</div>
 	
 
