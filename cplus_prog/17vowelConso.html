@@ -12,11 +12,47 @@
 		<div class="box">
 			<div class="right">
 				<div class="head">Source Code</div>
-				<div class="input"><img src="../if_switch_loop/17vowelConso_inp.PNG" class="img"></div>
-			</div>
-			<div class="right">
+				<div class="input">
+					<!-- <img src="../if_switch_loop/17vowelConso_inp.PNG" class="img"> -->
+					<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid lightblue;border-width:.1em .1em .1em .4em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd2828; font-weight: bold">#include &lt;iostream&gt; </span>
+<span style="color: #6ab825; font-weight: bold">using</span> <span style="color: #6ab825; font-weight: bold">namespace</span> <span style="color: #d0d0d0">std;</span>
+
+<span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #447fcf">main</span><span style="color: #d0d0d0">()</span> 
+<span style="color: #d0d0d0">{</span>
+    <span style="color: #6ab825; font-weight: bold">char</span> <span style="color: #d0d0d0">c;</span>
+    <span style="color: #6ab825; font-weight: bold">bool</span> <span style="color: #d0d0d0">isLowercaseVowel,</span> <span style="color: #d0d0d0">isUppercaseVowel;</span>
+    <span style="color: #d0d0d0">cout</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #ed9d13">&quot;Enter an alphabet: &quot;</span><span style="color: #d0d0d0">;</span>
+    <span style="color: #d0d0d0">cin</span> <span style="color: #d0d0d0">&gt;&gt;</span> <span style="color: #d0d0d0">c;</span>
+
+    <span style="color: #999999; font-style: italic">// evaluates to 1 (true) if c is a lowercase vowel </span>
+    <span style="color: #d0d0d0">isLowercaseVowel</span> <span style="color: #d0d0d0">=</span> <span style="color: #d0d0d0">(c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;a&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;e&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;i&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;o&#39;</span> <span style="color: #d0d0d0">||c==</span><span style="color: #ed9d13">&#39;u&#39;</span><span style="color: #d0d0d0">);</span>
+    
+    <span style="color: #999999; font-style: italic">// evaluates to 1 (true) if c is an uppercase vowel</span>
+    <span style="color: #d0d0d0">isUppercaseVowel=</span> <span style="color: #d0d0d0">(c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;A&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;E&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;I&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;O&#39;</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">==</span><span style="color: #ed9d13">&#39;U&#39;</span><span style="color: #d0d0d0">);</span>
+    
+    <span style="color: #999999; font-style: italic">// show error message if c is not an alphabet </span>
+    <span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #d0d0d0">(!isalpha(c))</span>
+        <span style="color: #d0d0d0">cout&lt;&lt;(</span><span style="color: #ed9d13">&quot;Error! Non-alphabetic character.&quot;</span><span style="color: #d0d0d0">);</span> 
+        
+    <span style="color: #6ab825; font-weight: bold">else</span> <span style="color: #6ab825; font-weight: bold">if</span> <span style="color: #d0d0d0">(isLowercaseVowel</span> <span style="color: #d0d0d0">||</span> <span style="color: #d0d0d0">isUppercaseVowel)</span> 
+        <span style="color: #d0d0d0">cout</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #ed9d13">&quot; is a vowel.&quot;</span><span style="color: #d0d0d0">;</span>
+        
+    <span style="color: #6ab825; font-weight: bold">else</span>
+        <span style="color: #d0d0d0">cout</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #d0d0d0">c</span> <span style="color: #d0d0d0">&lt;&lt;</span> <span style="color: #ed9d13">&quot; is a consonant.&quot;</span><span style="color: #d0d0d0">;</span>
+        
+    <span style="color: #6ab825; font-weight: bold">return</span> <span style="color: #3677a9">0</span><span style="color: #d0d0d0">;</span>
+<span style="color: #d0d0d0">}</span>
+</pre></div>
+
+				</div>
+
+				</div>
 				<div class="head">Output</div>
-				<div class="input"><img src="../if_switch_loop/17vowelConso_out.PNG" class="img"></div>
+				<div class="Output">
+					<!-- <img src="../if_switch_loop/17vowelConso_out.PNG" class="img"> -->
+					Enter an alphabet: 8<br>Error! Non-alphabetic character.<br><br>
+					Enter an alphabet: P<br>P is a consonant.
+				</div>
 			</div>
 		</div>
 	
