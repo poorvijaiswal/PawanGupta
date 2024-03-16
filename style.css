@@ -64,7 +64,7 @@ nav .container .logo
 {
   width: 350px;
   padding: 5px;
-  /*background: cyan;*/
+  /* background: cyan; */
   display: flex;
   /*justify-content: space-between;*/
   align-items: center;
@@ -243,77 +243,43 @@ nav .container button
   margin: 15px;
 }
 /*-------------------------------------------------------------------------*/
-.wrapper
-{
-  display: flex;
-  align-items: center;
-  /*justify-content: center;*/
-  margin-left: 50px;
-  /*background: red;*/
-  /*margin: auto;*/
-}
-.wrapper{
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-}
-.wrapper .static-txt{
-  color: black;
-  font-size: 38px;
-  /*font-size: calc(24px + 5vh);*/
-  /*background: pink;*/
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-.wrapper .dynamic-txts{
-  margin-left: 15px;
-  height: 90px;
-  /*background: dodgerblue;*/
-  text-align: left;
-  line-height: 90px;
-  overflow: hidden;
-}
-.dynamic-txts li{
-  list-style: none;
-  color: blue;
-  /*font-size: 38px;*/
-  font-size: 5vh;
-  font-weight: 700;
-  position: relative;
-  top: 0;
-  animation: slide 12s steps(4) infinite;
-}
-@keyframes slide {
-  100%{
-    top: -360px;
-  }
-}
-.dynamic-txts li span{
-  position: relative;
-  text-decoration: underline;
-  /*margin: 5px 0;*/
-  /*line-height: 80px;*/
-}
-.dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 2.5px;
-  height: 100%;
-  width: 100%;
-  background: white;
-  border-left: 2px solid black;
-  animation: typing 3s steps(10) infinite;
-}
-@keyframes typing 
-{
-  40%, 60%{
-  left: calc(100%);
-  }
-  100%{
-    left: 0;
-  }
-}
+
+
+.animate-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+    }
+
+    .animate-container .static-txt, .animate-container .dynamic-txt{font-size: 2.5rem;}
+
+    /* Cursor */
+    .txt-type > .txt {
+      border-right: 0.2rem solid black;
+    }
+    .txt-type{color: blue; }
+
+  @media(min-width: 1200px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media(max-width: 800px) {
+      .animate-container {
+        padding: 0 1rem;
+      }
+
+      .animate-container .static-txt, .animate-container .dynamic-txt{font-size: 36px;}
+    }
+
+    @media(max-width: 500px) {
+      
+      .animate-container .static-txt, .animate-container .dynamic-txt{font-size: 30px;}
+
+    }
 /*------------------------about-------------------------------*/
 #about 
 {
@@ -922,7 +888,7 @@ h2 {
   display:flex;
   flex:1;
   height:460px;
-  background-color: $white;
+  background-color: white;
   justify-content:center;
   align-items:center;
 }
@@ -933,7 +899,7 @@ h2 {
   height:480px;
   justify-content:center;
   align-items:center;
-    color:$white;
+    color:white;
 }
 
 .left-container p {

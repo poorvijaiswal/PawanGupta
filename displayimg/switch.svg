@@ -1,0 +1,100 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="314.11mm" width="429.57mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 1522.1046 1112.9919">
+ <defs>
+  <marker id="m" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+  <marker id="n" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="l" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="k" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+  <marker id="a" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="j" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+  <marker id="i" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="h" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+  <marker id="g" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="f" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+  <marker id="e" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="d" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="c" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z"/>
+  </marker>
+  <marker id="b" refY="0" refX="0" style="overflow:visible" orient="auto">
+   <path d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" style="stroke-linejoin:round;stroke-opacity:.96078;fill-rule:evenodd;stroke:#696969;stroke-width:.625;fill:#f7df79" transform="matrix(-1.1,0,0,-1.1,-1.1,0)"/>
+  </marker>
+ </defs>
+ <g transform="translate(1209.6 355.56)">
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3.0925;fill:#fff987;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" transform="matrix(.81797 .57526 -.81797 .57526 0 0)" rx="0" ry="0" height="133.86" width="133.86" y="321.78" x="-639.08"/>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#ffa27b;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="23.964" ry="31.996" height="63.992" width="194.6" y="691.94" x="-1200.8"/>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#e0ff87;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="23.964" ry="31.996" height="63.992" width="194.6" y="-354.06" x="-883.26"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" xml:space="preserve" y="-309.34299" x="-843.2406"><tspan x="-843.2406" style="font-size:35px;fill:#ffffff" y="-309.34299">START</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ffffff" y="736.6571" x="-1150.7582" xml:space="preserve"><tspan y="736.6571" x="-1150.7582" style="font-size:35px;fill:#ffffff">STOP</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" xml:space="preserve" y="-309.34299" x="-843.2406"><tspan x="-843.2406" style="font-size:35px" y="-309.34299">START</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="736.6571" x="-1150.7582" xml:space="preserve"><tspan y="736.6571" x="-1150.7582" style="font-size:35px">STOP</tspan></text>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#c4e4ff;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="0" ry="0" height="53.763" width="220.34" y="179.46" x="-896.12"/>
+  <path style="marker-end:url(#m);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m-785.97-287.52v96.492"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" xml:space="preserve" y="79.647873" x="-999.19769"><tspan x="-999.19769" y="79.647873"/></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="-96.589752" x="-785.25342" xml:space="preserve"><tspan y="-96.589752" x="-785.25342" style="font-size:25px;text-anchor:middle;text-align:center">case 1</tspan></text>
+  <path d="m-485.98 412.48v111.21" style="marker-end:url(#n);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" xml:space="preserve" y="213.38461" x="-786.35217"><tspan x="-786.35217" style="font-size:25px;text-anchor:middle;text-align:center" y="213.38461">Body of case 2</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ff5353" y="-114.61543" x="-589.57892" xml:space="preserve"><tspan y="-114.61543" x="-589.57892" style="text-align:center;font-size:25px;fill:#ff5353;text-anchor:middle">FALSE</tspan></text>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#c4e4ff;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="0" ry="0" height="53.763" width="346.72" y="359.13" x="-35.735"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="395.38458" x="136.6649" xml:space="preserve"><tspan y="395.38458" x="136.6649" style="font-size:25px;text-anchor:middle;text-align:center">Default Statement</tspan></text>
+  <path d="m-894.22-106.02h-202.08" style="marker-start:;stroke:#696969;stroke-width:2;fill:none"/>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#c4e4ff;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="0" ry="0" height="53.763" width="220.34" y="-.54057" x="-1208.1"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="33.384556" x="-1097.8334" xml:space="preserve"><tspan y="33.384556" x="-1097.8334" style="font-size:25px;text-anchor:middle;text-align:center">Body of case 1</tspan></text>
+  <path d="m-1096-106.78v96.492" style="marker-end:url(#l);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <path style="marker-start:;stroke:#696969;stroke-width:2;fill:none" d="m-679.47-106.02h202.08"/>
+  <path style="marker-end:url(#k);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m-477.72-106.78v96.492"/>
+  <rect ry="0" style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3.0925;fill:#fff987;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="0" transform="matrix(.81797 .57526 -.81797 .57526 0 0)" height="133.86" width="133.86" y="290.02" x="-293.97"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ff5353" xml:space="preserve" y="65.6371" x="-281.30609"><tspan x="-281.30609" style="text-align:center;font-size:25px;fill:#ff5353;text-anchor:middle" y="65.6371">FALSE</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#39cb63" y="65.447891" x="-681.30609" xml:space="preserve"><tspan y="65.447891" x="-681.30609" style="text-align:center;font-size:25px;fill:#39cb63;text-anchor:middle">TRUE</tspan></text>
+  <path d="m-371.19 74.231h202.08" style="marker-start:;stroke:#696969;stroke-width:2;fill:none"/>
+  <path d="m-169.44 73.468v96.492" style="marker-end:url(#a);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#39cb63" y="-114.80464" x="-969.57898" xml:space="preserve"><tspan y="-114.80464" x="-969.57898" style="text-align:center;font-size:25px;fill:#39cb63;text-anchor:middle">TRUE</tspan></text>
+  <path style="marker-start:;stroke:#696969;stroke-width:2;fill:none" d="m-583.88 74.231h-202.08"/>
+  <path style="marker-end:url(#j);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m-785.63 73.468v96.492"/>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3;fill:#c4e4ff;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" rx="0" ry="0" height="53.763" width="220.34" y="359.46" x="-588.12"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="393.38464" x="-478.22397" xml:space="preserve"><tspan y="393.38464" x="-478.22397" style="font-size:25px;text-anchor:middle;text-align:center">Body of case 3</tspan></text>
+  <rect style="stroke-linejoin:round;color-rendering:auto;color:#000000;shape-rendering:auto;solid-color:#000000;stroke:#696969;stroke-linecap:round;stroke-width:3.0925;fill:#fff987;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" transform="matrix(.81797 .57526 -.81797 .57526 0 0)" rx="0" ry="0" height="133.86" width="133.86" y="258.2" x="50.754"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#ff5353" y="245.6371" x="26.693907" xml:space="preserve"><tspan y="245.6371" x="26.693907" style="text-align:center;font-size:25px;fill:#ff5353;text-anchor:middle">FALSE</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#39cb63" xml:space="preserve" y="245.44789" x="-373.30609"><tspan x="-373.30609" style="text-align:center;font-size:25px;fill:#39cb63;text-anchor:middle" y="245.44789">TRUE</tspan></text>
+  <path style="marker-start:;stroke:#696969;stroke-width:2;fill:none" d="m-63.193 254.23h202.08"/>
+  <path style="marker-end:url(#a);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m138.56 253.47v96.492"/>
+  <path d="m-275.88 254.23h-202.08" style="marker-start:;stroke:#696969;stroke-width:2;fill:none"/>
+  <path d="m-477.69 252.93v96.492" style="marker-end:url(#i);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <path style="marker-end:url(#h);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m-786.06 232.48v291.09"/>
+  <path d="m-1098.1 52.478v470.7" style="marker-end:url(#g);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <circle r="24.354" style="stroke-linejoin:round;color-rendering:auto;color:#000000;marker-start:;shape-rendering:auto;solid-color:#000000;stroke:#808080;stroke-linecap:round;stroke-width:2;fill:#4d4d4d;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" cx="-1098.1" cy="557.06"/>
+  <circle cx="-786.02" cy="557.06" r="24.354" style="stroke-linejoin:round;color-rendering:auto;color:#000000;marker-start:;shape-rendering:auto;solid-color:#000000;stroke:#808080;stroke-linecap:round;stroke-width:2;fill:#4d4d4d;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto"/>
+  <circle r="24.354" style="stroke-linejoin:round;color-rendering:auto;color:#000000;marker-start:;shape-rendering:auto;solid-color:#000000;stroke:#808080;stroke-linecap:round;stroke-width:2;fill:#4d4d4d;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto" cx="-485.94" cy="557.06"/>
+  <path style="marker-end:url(#f);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m-510.37 558.04h-243.5"/>
+  <path d="m-810.37 558.04h-255.25" style="marker-end:url(#e);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <path d="m-1098 580.96v102.79" style="marker-end:url(#d);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <circle cx="137.62" cy="557.06" r="24.354" style="stroke-linejoin:round;color-rendering:auto;color:#000000;marker-start:;shape-rendering:auto;solid-color:#000000;stroke:#808080;stroke-linecap:round;stroke-width:2;fill:#4d4d4d;fill-rule:evenodd;mix-blend-mode:normal;image-rendering:auto;isolation:auto"/>
+  <path d="m111.63 558.04h-565.5" style="marker-end:url(#c);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79"/>
+  <path style="marker-end:url(#b);stroke-opacity:.96078;marker-start:;fill-rule:evenodd;stroke:#696969;stroke-width:2;fill:#f7df79" d="m137.59 412.48v111.21"/>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" xml:space="preserve" y="83.821526" x="-477.49924"><tspan x="-477.49924" style="font-size:25px;text-anchor:middle;text-align:center" y="83.821526">case 2</tspan></text>
+  <text style="letter-spacing:0px;font-size:17.5px;word-spacing:0px;font-family:sans-serif;line-height:125%;fill:#000000" y="263.82135" x="-169.37125" xml:space="preserve"><tspan y="263.82135" x="-169.37125" style="font-size:25px;text-anchor:middle;text-align:center">case 3</tspan></text>
+ </g>
+</svg>
